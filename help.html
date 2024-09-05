@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>suvidha Foundation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/logo1.png">
+</head>
+<body class="account">
+    <header class="header">
+        <img src="../images/logo.png">
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="help.html">help</a>
+            <a href="index.html">HOME</a>
+            <a href="event.html">events</a>
+           <a href="gallery.html">Gallery</a>
+           <a href="contact.html">contact</a>
+           
+        </nav>
+    </header>
+    <div class="nav-bg"></div>
+    <script>
+        const menuIcon = document.querySelector('#menu-icon');
+const navbar = document.querySelector('.navbar');
+const navbg = document.querySelector('.nav-bg');
+menuIcon.addEventListener('click', () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+    navbg.classList.toggle('active');
+});
+    </script> 
+     <div class="charity">
+        <h3>HELP</h3>
+        <h1>There is no feeling more wonderful<br> than
+            being the cause of someone else's smile.</h1>
+    </div>
+    
+    <div class="acc"><h1> ACOUNT DETAILS</h1></div>
+    <div class="help1">
+    <div class="acc1"><ul>
+        <h1>for Indian Donar</h1>
+            <li>Bank Of Baroda</li>
+            <li>City: Nagpur</li>
+            <li>Contact No: +91 8010996763</li>
+            <li>Account Name: Suvidha Mahila Mandal</li>
+            <li>Suvidha Account No: 97840100027609</li>
+            <li>IFSC Code: BARB0DBKPAR</li>
+        </ul>
+    </div>
+    <div class="acc1">
+        <img src="images/help/QR-Codes.jpg">
+    </div>
+</div>
+     <footer>
+        <div class="next3">
+            <h1>Suvidha Foundation (Suvidha Mahila Mandal)</h1><br>
+            <h2>Suvidha Mahila Mandal, Walni Ward No. 1, Jai Bhole Nagar, Walni, Saoner
+                <br><br>Nagpur, Maharashtra 441102</h2>
+        </div>
+        <div class="next3">
+            <h1>Certificates</h1><br>
+            <ul class="ul1">
+                <h2><li><a href="docs/80G_APROVAL.pdf">80G Certificate</a></li><br>
+                <li><a href="docs/12A_APPROVAL.pdf">12A Certificate</a></li><br>
+                <li><a href="docs/CSR.pdf">SR Certificate</a></li><br>
+                <li><a href="docs/suvidha_darpan_portal_registration.pdf">Suvidha Darpan Registration</a></li><br>
+                <li><a href="docs/suvidha_pan_card.pdf">Suvidha Pan Card</a></li></h2>
+            </ul>
+        </div>
+        <div class="next3">
+            <h1>Useful links</h1><br>
+            <ul class="ul1">
+                <h2><li><a href="certificate.html">Verify Your Cerificate</a></li><br>
+                <li><a href="privacy.html">Privacy Policy</a></li><br>
+                </ul>
+        </div>
+        <div class="next6">
+            <p>
+               © 
+            <a href="index.html">suvidha foundation</a>
+            ,"all rights reserve."
+        </p>
+        </div>
+    </footer>      
+</body>
+</html>
